@@ -1,0 +1,29 @@
+package diceRoll;
+import java.util.Scanner;
+import  java.lang.Math;
+import java.lang.Math;
+
+public class DieDriver
+{
+    
+
+	public static void main(String [] args)
+	{
+		Scanner keyboard = new Scanner (System.in);
+		
+		
+		System.out.println("Enter a number of sides higher than 1");
+		int sides = keyboard.nextInt();
+		Die  d1 = new Die(sides);
+		
+		System.out.println(d1.roll());
+		
+		
+		
+		
+	}
+
+
+
+
+}
