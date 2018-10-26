@@ -1,0 +1,22 @@
+package diceRoll;
+import java.lang.Math;
+
+public class Die 
+{
+	int sidesInDie;
+	
+	public Die(int sidesOfDie)
+	{
+       sidesInDie = sidesOfDie;
+	}
+	
+	public int roll()
+	{
+		int output = (int) (Math.random() * sidesInDie) + 1 ;
+	  
+	  
+	  return output;
+	}
+
+}
+
